@@ -13,6 +13,7 @@ function hit() {
 
   axios.get(uri)
     .then(response => {
+      count++;
       timeAfter = new Date();
       console.log(`#${count} - ${response.status} ${response.statusText} response in ${timeAfter - timeBefore} ms`);
       timeBefore = timeAfter;
