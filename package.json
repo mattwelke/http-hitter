@@ -1,13 +1,13 @@
 {
-  "name": "heroku-hitter",
+  "name": "http-hitter",
   "version": "1.0.0",
   "description": "",
-  "main": "heroku_hitter.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "axios": "^0.15.3"
   }
