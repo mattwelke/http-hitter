@@ -5,7 +5,7 @@ Command line utility for testing response time to HTTP server using concurrent r
 Usage:
 
 ```bash
-node index.js <URL\ <INTERVAL_MS>
+node index.js <URL> <INTERVAL_MS>
 ```
 
 Example:
