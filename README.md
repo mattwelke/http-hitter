@@ -1,9 +1,16 @@
 # http-hitter
-Command line utility for testing response time to HTTP server using sequential (not concurrent) requests.
 
-# Licence
+Command line utility for testing response time to HTTP server using concurrent requests.
 
-Copyright 2017 Matthew Welke
+Usage:
+
+node index.js <URL> <INTERVAL_MS>
+
+Example:
+
+node index.js https://yoursite.com/ 500
+
+## Licence
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
