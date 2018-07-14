@@ -4,11 +4,11 @@ Command line utility for testing response time to HTTP server using concurrent r
 
 Usage:
 
-node index.js \<URL\> <INTERVAL_MS>
+`node index.js \<URL\> <INTERVAL_MS>`
 
 Example:
 
-node index.js https://yoursite.com/ 500
+`node index.js https://yoursite.com/ 500`
 
 ## Licence
 
